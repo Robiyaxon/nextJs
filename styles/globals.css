@@ -379,6 +379,7 @@ tr.ant-table-row.ant-table-row-level-0.editable-row:nth-child(even) td.ant-table
   .ant-drawer-header-title{
     flex-direction: row-reverse;
   }
+
   .ant-drawer-header{
     border: none !important;
     margin-top: 1rem
@@ -398,6 +399,10 @@ tr.ant-table-row.ant-table-row-level-0.editable-row:nth-child(even) td.ant-table
   .ant-drawer-content-wrapper {
     width: 100% !important;
   }
+
+  .margin .Navbar_navbar__links__kkPCY a:nth-child(1) {
+    display: none;
+}
 
   .ant-popover-inner-content {
     padding: 0 !important;

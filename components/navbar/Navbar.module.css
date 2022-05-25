@@ -134,10 +134,9 @@
     display: flex !important;
     justify-content: flex-end;
     margin: 2rem 1rem 0
-  }
-  
+  }  
 .navbar__links a {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 26px;
 }
 }
