@@ -1,0 +1,278 @@
+.Wrapper__Img{
+display: flex;
+}
+.block__duck__img{
+  margin-top:1.7rem !important;
+}
+.Footer__Stayle{
+  padding:59px 0 0 0  ;
+}
+.Wrapper {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.Input__type__checkbox {
+  margin-top: 0.5rem;
+  color:white;
+}
+
+.Input__type__checkbox__label {
+color:white;
+margin-left:1rem;
+font-family: 'Mini Pixel-7';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+}
+.Wrapper__Login {
+  background: #061e29;
+  width: 100%;
+}
+
+.login__input__blog__label {
+  font-family: 'Mini Pixel-7';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 26px;
+  color: #4f849e;
+}
+.Input__type__text:focus{
+  border: 3px solid #febf3e;
+  outline :none;
+}
+.Input__type__text {
+  width: 650px;
+  font-size: 40px;
+  padding:0 10px;
+  color:white;
+  font-family: 'Mini Pixel-7';
+  margin: 12px 0 32px 0;
+  border: 3px solid #365c7d;
+  height: 63px;
+  background: rgb(79 132 158 / var(--tw-border-opacity));
+}
+.login__input,
+.Login__Block {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.login__input {
+  background: #0d2b45;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 54px 64px 0 0;
+}
+.login__input h1 {
+  font-style: normal;
+  font-family: "Mini Pixel-7";
+  font-weight: 400;
+  margin:44px 0 64px 64px ;
+  font-size: 80px;
+  line-height: 64px;
+  width: 462px;
+  color: #ffffff;
+}
+.login__input__blog button:hover {
+  background-color: #eab308;
+}
+.login__input__blog button {
+  display: flex;
+  font-family: "Mini Pixel-7";
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 650px;
+    margin-top:40px;
+    height: 76px;
+font-size: 32px;
+line-height: 26px;
+  background: #febf3e
+  ;
+}
+
+.Login__Block h1 {
+  font-family: 'Mini Pixel-7';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 176px;
+  text-transform: uppercase;
+  line-height: 112px;
+  width: 745px;
+  color: #ffffff;
+}
+
+.Login__Block p {
+  font-family: 'Mini Pixel-7';
+  font-style: normal;
+  width: 555px;
+  margin-top:-4rem;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  color: #619ebb;
+}
+@media(min-width:0) and (max-width:800.9px){
+  .Input__type__text {
+    width: 80%;
+    height: 46px;
+  }
+  .Wrapper__Img{
+    display:none
+  }
+  .login__input,
+  .Login__Block {
+    width: 100%;
+    margin-top:0.5rem;
+  }
+  .login__input {
+    width: 100%;
+    flex-wrap:wrap;
+    padding: 40px 0 0 0;
+    justify-content: center;
+  }
+ 
+  .login__input h1 {
+    text-align:center;
+    font-size: 56px;
+    width: 90%;
+    margin:0 0 1rem 0 ;
+    line-height:44px
+  }
+  .login__input__blog{
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .login__input__blog button {
+    padding: 20px 25px;
+    width: 80%;
+    margin:0.7rem auto;
+    height: 66px;
+  font-size: 18px;
+  }
+  
+  .Wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .Wrapper__Login {
+  padding:0 24px;
+  }
+  .Login__Block {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .Login__Block h1 {
+    font-size: 104px;
+    line-height: 72px;
+    width: 100%;
+  }
+
+  .Login__Block p {
+    width: 100%;
+    line-height: 32px;
+    margin-top:1px;
+    font-size: 32px;
+  }
+}
+@media(min-width:801px) and (max-width:1200.9px){
+  .Input__type__text {
+    width: 90%;
+  }
+  .login__input,
+  .Login__Block {
+    width: 100%;
+    margin-top:0.5rem;
+  }
+  .login__input {
+    padding:25px 15px;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+ 
+  .login__input h1 {
+    text-align:center;
+    font-size: 30px;
+    width: 100%;
+  }
+  .login__input__blog{
+    width:55%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .login__input__title{
+    width:40%;
+  }
+  .login__input__blog button {
+    padding: 10px 15px;
+    width: 90%;
+    margin:0.7rem auto;
+    height: 66px;
+  font-size: 18px;
+  }
+  
+  .Wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .Login__Block {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+padding:10px;
+  }
+
+  .Login__Block h1 {
+    text-align:center;
+    font-size: 70px;
+    line-height:80px;
+    width:45%;
+  }
+
+  .Login__Block p {
+    width: 45%;
+    text-align:center;
+    font-size: 19px;
+  }
+  .Wrapper__Login {
+    padding:0 14px;
+    }
+}
+@media(min-width:1201px) and (max-width:1300.9px){
+  .Input__type__text {
+    width: 80%;
+  }
+  .login__input__blog{
+    width: 50%;
+  }
+  .login__input__blog button {
+    width: 80%;
+  }
+  .login__input__blog{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+}
+@media(min-width:1301px) and (max-width:1484.9px){
+  .login__input__blog button {
+    width: 500px;
+  }
+  .Input__type__text {
+    width: 500px;
+  }
+}
